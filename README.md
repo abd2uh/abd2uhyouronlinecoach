@@ -5,10 +5,6 @@ A simple **static website** for online gym coaching that generates:
 - a **7-day meal plan** with **exact portions** (eggs, grams of bread, grams of chicken/rice, etc.)
 - a built-in **calorie & macro tracker**
 
-It runs fully in the browser (no backend).
-
----
-
 ## Features
 
 ### 1) Program Generator
@@ -59,22 +55,3 @@ Included contact methods:
 - WhatsApp: +358408145114
 - Email: abd2uhyouronlinecoach@gmail.com
 
----
-
-## Tech Stack
-- HTML + CSS + Vanilla JavaScript
-- No server / no database
-- Runs offline
-
----
-
-## Run Locally
-
-### Option 1 (fastest)
-Just open:
-`index.html`
-
-### Option 2 (recommended local server)
-```bash
-cd abd2uhyouronlinecoach
-python -m http.server 8080
